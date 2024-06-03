@@ -3,7 +3,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { getProjects } from "@/sanity/sanity-utils";
 
-
 export default async function Home() {
   const projects = await getProjects();
 
