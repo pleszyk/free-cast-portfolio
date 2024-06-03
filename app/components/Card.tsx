@@ -3,8 +3,9 @@ import { DiGithubFull } from "react-icons/di";
 import { Project } from "@/types/Project";
 
 function Card(props: Project) {
+  
+  const height = props.size === "lg" ? "h-80 p-32" : "h-24";
 
-  const height = props.size === "lg" ? "h-80 p-32" : "h-24"; // Conditional height classes
   return (
     <div
       className={`relative block bg-blend-overlay border border-gray-700 bg-black bg-opacity-25 w-full ${height} overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat`}
@@ -32,7 +33,6 @@ function Card(props: Project) {
             <h3 className="text-lg md:text-2xl font-medium">{props.title}</h3>
 
             <p className="text-xs md:text-sm">{props.description}</p>
-            {/* {props.spin && <p className="text-xs">(30s spin-up delay)</p>} */}
           </div>
         </>
       ) : (

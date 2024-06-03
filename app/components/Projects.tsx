@@ -22,8 +22,6 @@ function Projects({ projects }: ProjectsProps) {
     );
   };
 
-  console.log(projects);
-
   return (
     <div className="p-4 mx-6 flex border bg-gray-800 border-gray-700 rounded-lg flex-col items-center space-y-4">
       <div className="overflow-hidden w-full">
@@ -42,9 +40,6 @@ function Projects({ projects }: ProjectsProps) {
             <>
               <Card {...projects[currentIndex]} size="lg" />
             </>
-          )}
-          {projects.length < 1 && (
-            <></>
           )}
         </div>
       </div>
