@@ -4,9 +4,9 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div className="p-4 mx-6 my-4 flex border bg-gray-800 border-gray-700 rounded-lg text-white flex-row space-y-4">
+    <div className="p-2 mx-6 my-4 flex border bg-gray-800 border-gray-700 rounded-lg text-white flex-row space-y-4">
       <Image
-        className="rounded-xl border border-gray-700"
+        className="rounded-xl border border-gray-700 object-cover"
         src="/assets/photo.jpg"
         width={150}
         height={150}
@@ -17,8 +17,7 @@ function Hero() {
           Hello, I&rsquo;m Paul. Experienced in building dynamic full-stack
           applications leveraging mainly React and Node.js. Equipped with a solid
           foundational background with a B.Sc in Computer Science to deliver high-quality
-          projects. Excited to showcase expertise through a diverse range of
-          modern web technologies. Thanks for checking out my projects!
+          projects. Thanks for checking out my projects!
         </span>
         <Link
           className="absolute hover:bg-indigo-600 right-0 bottom-0 text-xs border border-indigo-600 rounded p-1 bg-indigo-700"
