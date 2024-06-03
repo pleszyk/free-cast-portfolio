@@ -14,7 +14,7 @@ function Hero() {
       />
       <div className="px-6 flex w-full relative">
         <span className="text-sm">
-          Hello, I'm Paul. Experienced in building dynamic full-stack
+          Hello, I&rsquo;m Paul. Experienced in building dynamic full-stack
           applications leveraging mainly React and Node.js. Equipped with a solid
           foundational background with a B.Sc in Computer Science to deliver high-quality
           projects. Excited to showcase expertise through a diverse range of
